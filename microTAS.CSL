@@ -14,7 +14,6 @@
     <category field="engineering"/>
     <summary>A style for microTAS conferences</summary>
     <updated>2019-04-23T22:37:41+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
     <terms>
@@ -94,7 +93,7 @@
             <date variable="issued">
               <date-part name="year"/>
             </date>
-            <text variable="page" prefix=":"/>
+            <text variable="page" />
           </group>
         </if>
         <else-if type="chapter paper-conference" match="any">
@@ -131,7 +130,7 @@
                   </date>
                   <text variable="volume" font-weight="bold"/>
                 </group>
-                <text variable="page" prefix=": "/>
+                <text variable="page" />
               </if>
               <else>
                 <group delimiter="; ">
