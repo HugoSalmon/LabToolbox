@@ -1,3 +1,10 @@
+---
+title: README Labtoolbox 
+author: "Hugo Salmon"
+date: "May 9, 2019"
+output: pdf_document
+---
+
 # LabToolbox
 Miscellaneous tools I use for data analysis and plot
 
